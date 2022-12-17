@@ -36,6 +36,14 @@
 		border-bg:			rgba(255,255,255,0.075),
 		border2:			rgba(255,255,255,0.75),
 		border2-bg:			rgba(255,255,255,0.2),
+		accent:			    #c3e895,
+		accent1:			#8addaa,
+		accent2:			#6bd4c8,
+		accent3:			#57aed3,
+		accent4:			#4a87d3,
+		accent5:			#6b88e6,
+		bg1:				desaturate(darken(#8addaa, 15), 20),
+		bg2:				desaturate(darken(#6b88e6, 15), 20),
 
 		invert: (
 			bg:				#ffffff,
@@ -47,14 +55,5 @@
 			border-bg:		rgba(222,222,222,0.25),
 			border2:		#dddddd,
 			border2-bg:		rgba(222,222,222,0.5),
-		),
-
-		accent:				#8cc9f0,
-		accent1:			#efa8b0,
-		accent2:			#c79cc8,
-		accent3:			#a89cc8,
-		accent4:			#9bb2e1,
-		accent5:			#8cc9f0,
-		bg1:				#e37682,
-		bg2:				#5f4d93
+		)
 	);
