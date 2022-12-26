@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import HeaderAbout from '../components/HeaderAbout'
-import pic04 from '../assets/images/pic04.jpg'
+import about_img from '../assets/images/aboutus.png'
 
 class About extends React.Component {
   render() {
@@ -14,12 +14,20 @@ class About extends React.Component {
         <HeaderAbout />
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={pic04} alt="" /></span>
-            <h2>Magna feugiat lorem</h2>
-            <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-            <p>Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Consequat leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit enim turpis lorem ipsum dolor sit amet feugiat. Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet est velit quis lorem.</p>
-            <h2>Tempus veroeros</h2>
-            <p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
+            <span className="image main"><img src={about_img} alt="" /></span>
+            <p>Victoria Lim is a Senior Technical Writer at Imply Data. She completed her PhD in Chemistry at the University of California, Irvine, where she was awarded a Graduate Research Fellowship by the National Science Foundation (NSF GRFP). She also conducted research abroad in Sweden, funded by the NSF Graduate Research Opportunities Worldwide (NSF GROW) award.</p>
+            <p>She provides editing services for students and researchers in the sciences. She has worked with clients applying for the following:
+            <ul>
+              <li>Full-time industry positions</li>
+              <li>Postdoctoral appointments</li>
+              <li>Industry and national lab internships</li>
+              <li>Fellowships (NSF GRFP, Hertz, AAAS STPF)</li>
+              <li>Graduate school admissions (masters and doctoral)</li>
+              <li>Medical school and residency admissions</li>
+            </ul>
+            </p>
+            <p>She was an application reviewer for the National Center for Women & Information Technology Award for Aspirations in Computing (high school level) and NCWIT Collegiate Award (undergraduate and graduate level).</p>
+            <p>Her areas of expertise include chemistry, biology, physics, and software development. For these areas, she offers more extensive editing services for scientific manuscripts, theses, and grant applications.</p>
           </section>
         </div>
       </Layout>
