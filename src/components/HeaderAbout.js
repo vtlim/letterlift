@@ -3,7 +3,7 @@ import React from 'react'
 const HeaderAbout = (props) => (
     <header id="header">
         <h1>About us</h1>
-        <p>LetterLift - Professional Editing Services</p>
+        <p><a href="/">LetterLift - Professional Editing Services</a></p>
     </header>
 )
 
