@@ -34,7 +34,7 @@ const Footer = props => (
         <dt>LinkedIn</dt>
         <dd><a href="https://www.linkedin.com/company/letterlift">linkedin.com/company/letterlift</a></dd>
         <dt>Location</dt>
-        <dd>Los Angeles metropolitan area, CA &bull; USA</dd>
+        <dd>Los Angeles metropolitan area</dd>
       </dl>
     </section>
     <p className="copyright">
