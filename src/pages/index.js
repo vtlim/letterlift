@@ -54,6 +54,13 @@ class Index extends React.Component {
                   (BS, MS, or PhD) who seek full-time employment, internships,
                   fellowships, or graduate programs.
                 </p>
+                <ul className="actions">
+                  <li>
+                    <Link to="/generic" className="button special">
+                      Sign up
+                    </Link>
+                  </li>
+                </ul>
               </div>
               <span className="image">
                 <img src={pic01} alt="" />
@@ -170,6 +177,9 @@ class Index extends React.Component {
               <p>
                 Fill out the form linked below to get started.
                 No commitment required.
+                <br />
+                Curious to hear how others have benefited?
+                Check out the <a href="/testimonials">Testimonials</a>!
               </p>
             </header>
             <footer className="major">
