@@ -60,6 +60,11 @@ class Index extends React.Component {
                       Sign up
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/testimonials" className="button">
+                      Testimonials
+                    </Link>
+                  </li>
                 </ul>
               </div>
               <span className="image">
