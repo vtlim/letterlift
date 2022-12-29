@@ -2,7 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
-import pic01 from '../assets/images/pic01.jpg'
+import front from '../assets/images/front.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -75,7 +75,7 @@ class Index extends React.Component {
                 </ul>
               </div>
               <span className="image">
-                <img src={pic01} alt="" />
+                <img src={front} alt="" />
               </span>
             </div>
           </section>
