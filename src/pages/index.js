@@ -115,7 +115,8 @@ class Index extends React.Component {
               <h2>How it works</h2>
               <p>
                 Scheduling services with LetterLift is quick and easy.
-                Follow the steps detailed below.
+                <br />
+                You could have polished application materials by next week!
               </p>
             </header>
             <ul className="statistics">
@@ -137,15 +138,14 @@ class Index extends React.Component {
               </li>
             </ul>
             <p className="content">
-              You could be all set to apply this time next week!
-              <br />To book editing services:
+              To book editing services:
               <ol>
                 <li>
                   Complete the form of interest. You will hear from us within
                   two (2) business days.
                 </li>
                 <li>
-                  Schedule a time to meet for live edits, or request edits asynchronously.
+                  Schedule a time to meet for live edits, or request edits asynchronously (required for longer form documents like manuscripts).
                 </li>
                 <li>
                   Submit materials for editing, and meet with us to go over your documents.
@@ -160,12 +160,11 @@ class Index extends React.Component {
               <ul>
                 <li>
                   <b>What kind of documents do you edit?</b> Résumés/CVs, cover letters,
-                  and personal statements are the most frequent requests.
-                  We also edit scientific manuscripts, theses, and personal statements,
-                  though these may take longer.
+                  and personal statements are most common.
+                  We also edit scientific manuscripts, theses, and personal statements.
                 </li>
                 <li>
-                  <b>What is your rate?</b> Please contact us to discuss rates.
+                  <b>What is your rate?</b> We charge a flat rate of $55. Discounts are available for students.
                 </li>
                 <li>
                   <b>How are edits made?</b> We use the suggestion mode in Google Docs,
