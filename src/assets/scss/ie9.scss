@@ -42,6 +42,16 @@
 		}
 	}
 
+/* Testimonials */
+
+	.testimonials {
+		&:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+	}
+
 /* Statistics */
 
 	.statistics {
