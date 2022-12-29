@@ -20,11 +20,11 @@
 		}
 
 		&.major {
-			border: solid 1px;
+			border: solid 0px;
 			display: inline-block;
-			border-radius: 100%;
-			padding: 0.65em;
-			margin: 0 0 _size(element-margin) 0;
+			border-radius: 100%; // circle instead of square
+			// padding: 0.85em 0.85em 0.52em 0.85em; // padding inside
+			margin: 0 0 _size(element-margin) 0; // padding outside
 			cursor: default;
 
 			&:before {

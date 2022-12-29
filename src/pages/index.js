@@ -6,6 +6,13 @@ import pic01 from '../assets/images/pic01.jpg'
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
+import { FaBolt } from "react-icons/fa";
+import { FaCalendar } from "react-icons/fa";
+import { FaRegCheckCircle } from "react-icons/fa";
+import { FaSmileBeam } from "react-icons/fa";
+import { FaUserFriends } from "react-icons/fa";
+import { FaUserShield } from "react-icons/fa";
+import { FaWpforms } from "react-icons/fa";
 
 class Index extends React.Component {
   constructor(props) {
@@ -79,21 +86,21 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Complete confidentiality</h3>
-                <p>
-                  We never release any information you provide to us.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
+                <span className="icon major style3 fa-copy"><FaBolt size={80} /></span>
                 <h3>Quick turnaround time</h3>
                 <p>
                   Our average time to review is less than one week.
                 </p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="icon major style1"><FaUserShield size={80} /></span>
+                <h3>Complete confidentiality</h3>
+                <p>
+                  We never release any information you provide to us.
+                </p>
+              </li>
+              <li>
+                <span className="icon major style5 fa-diamond"><FaSmileBeam size={80} /></span>
                 <h3>Guaranteed satisfaction</h3>
                 <p>
                   We provide a complete refund if you are not satisfied
@@ -113,24 +120,20 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
+                <span className="icon"><strong><FaWpforms size={50} /></strong></span>
+                <strong>Submit request</strong>
               </li>
               <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
+                <span className="icon"><FaCalendar size={50} /></span>
+                <strong>Schedule meeting</strong>
               </li>
               <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
+                <span className="icon"><FaUserFriends size={50} /></span>
+                <strong>Meet for editing</strong>
               </li>
               <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
+                <span className="icon"><FaRegCheckCircle size={50} /></span>
+                <strong>Address feedback</strong>
               </li>
             </ul>
             <p className="content">
@@ -148,7 +151,7 @@ class Index extends React.Component {
                   Submit materials for editing, and meet with us to go over your documents.
                 </li>
                 <li>
-                  Go through comments left by your reviewer. You can request
+                  Address comments left by your reviewer. You can request
                   clarification or a second quick pass at no additional cost
                   within one (1) week from the initial review.
                 </li>
