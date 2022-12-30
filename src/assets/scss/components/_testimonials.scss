@@ -29,6 +29,18 @@
   justify-items: center;
   align-items: end;
   grid-area: headshot;
+
+  .image {
+    display: inline-block;
+    border-radius: 100%;
+    border: solid 5px;
+    border-color: #4a87d3;
+    img {
+      display: block;
+      border-radius: 100%;
+      width: 8em;
+    }
+  }
 }
 
 .title {  display: grid;

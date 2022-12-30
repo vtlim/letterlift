@@ -1,10 +1,12 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
+import { FaLinkedin } from "react-icons/fa";
 import Layout from '../components/layout'
 import HeaderTestimonials from '../components/HeaderTestimonials'
-import overlay from '../assets/images/overlay.png'
+import headshot_alex from '../assets/images/headshot_alex.jpg'
+
 import pic04 from '../assets/images/pic04.jpg'
+import overlay from '../assets/images/overlay.png'
 
 class Testimonials extends React.Component {
   render() {
@@ -24,11 +26,14 @@ class Testimonials extends React.Component {
               </div>
               <div class="headshot">
                 <span className="image">
-                  <img src={overlay} alt="" />
+                  <img src={headshot_alex} alt="" />
                 </span>
               </div>
               <div class="title">
-                <div><a href="https://www.linkedin.com/in/alex-willenbrink-707856104/"><b>Alex W.</b></a>
+                <div><b>Alex W. </b>
+                <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
+                <FaLinkedin size={13} />
+              </a>
                 <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i></div>
               </div>
             </div>
