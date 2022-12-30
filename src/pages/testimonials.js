@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Layout from '../components/layout'
 import HeaderTestimonials from '../components/HeaderTestimonials'
 import headshot_alex from '../assets/images/headshot_alex.jpg'
+import headshot_justin from '../assets/images/headshot_justin.jpg'
 
 import pic04 from '../assets/images/pic04.jpg'
 import overlay from '../assets/images/overlay.png'
@@ -30,11 +31,13 @@ class Testimonials extends React.Component {
                 </span>
               </div>
               <div class="title">
-                <div><b>Alex W. </b>
-                <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
-                <FaLinkedin size={13} />
-              </a>
-                <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i></div>
+                <div>
+                  <b>Alex W. </b>
+                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
+                  <FaLinkedin size={13} />
+                  </a>
+                  <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i>
+                </div>
               </div>
             </div>
             <hr />
@@ -49,23 +52,33 @@ class Testimonials extends React.Component {
                 </span>
               </div>
               <div class="title">
-                <div><a href="https://www.linkedin.com/in/alex-willenbrink-707856104/"><b>Alex W.</b></a>
-                <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i></div>
+                <div>
+                  <b>Alex W. </b>
+                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
+                  <FaLinkedin size={13} />
+                  </a>
+                  <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i>
+                </div>
               </div>
             </div>
             <hr />
             <div class="left_testimonial">
               <div class="praise">
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
+                <p>Victoria at LetterLift changed my career! Victoria transformed my personal statement for a science policy fellowship into solid gold. Later in my career, she helped me with my resume and cover letter which helped me pivot from the federal government into industry. I could not have pivoted my career so much without Victoria's thoughtful guidance and astute editing.</p>
               </div>
               <div class="headshot">
                 <span className="image">
-                  <img src={overlay} alt="" />
+                  <img src={headshot_justin} alt="" />
                 </span>
               </div>
               <div class="title">
-                <div><a href="https://www.linkedin.com/in/alex-willenbrink-707856104/"><b>Justin S.</b></a>
-                <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i></div>
+                <div>
+                  <b>Justin S. </b>
+                  <a href="https://www.linkedin.com/in/justincliffordsmith">
+                  <FaLinkedin size={13} />
+                  </a>
+                  <br />Lead Machine Learning Scientist at Caresyntax<br /><i>Applied to full-time data science positions</i>
+                </div>
               </div>
             </div>
             <hr />
@@ -79,8 +92,13 @@ class Testimonials extends React.Component {
                 </span>
               </div>
               <div class="title">
-                <div><a href="https://www.linkedin.com/in/alex-willenbrink-707856104/"><b>Alex W.</b></a>
-                <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i></div>
+                <div>
+                  <b>Alex W. </b>
+                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
+                  <FaLinkedin size={13} />
+                  </a>
+                  <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i>
+                </div>
               </div>
             </div>
           </section>
