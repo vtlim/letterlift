@@ -121,20 +121,21 @@ class Index extends React.Component {
             </header>
             <ul className="statistics">
               <li className="style1">
-                <span className="icon"><strong><FaWpforms size={50} /></strong></span>
-                <strong>Submit request</strong>
+                <span className="icon"><FaWpforms size={50} /></span>
+                <div style={{ fontSize: 1.5+'em', }}>Submit request</div>
               </li>
               <li className="style2">
                 <span className="icon"><FaCalendar size={50} /></span>
-                <strong>Schedule meeting</strong>
+                <div style={{ fontSize: 1.5+'em', }}>Schedule meeting</div>
               </li>
               <li className="style3">
                 <span className="icon"><FaUserFriends size={50} /></span>
-                <strong>Meet for editing</strong>
+                <div style={{ fontSize: 1.5+'em', }}>Meet for editing</div>
               </li>
               <li className="style4">
                 <span className="icon"><FaRegCheckCircle size={50} /></span>
-                <strong>Address feedback</strong>
+                <br />
+                <div style={{ fontSize: 1.5+'em', }}>Address feedback</div>
               </li>
             </ul>
             <p className="content">
