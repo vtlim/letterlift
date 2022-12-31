@@ -63,9 +63,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <Link to="/generic" className="button special">
-                      Sign up
-                    </Link>
+                    <a href="https://www.google.com" className="button special">Sign up</a>
                   </li>
                   <li>
                     <Link to="/testimonials" className="button">
@@ -187,15 +185,13 @@ class Index extends React.Component {
                 No commitment required.
                 <br />
                 Curious to hear how others have benefited?
-                Check out the <a href="/testimonials">Testimonials</a>!
+                Check out the <Link to="/testimonials">Testimonials</Link>!
               </p>
             </header>
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button special">
-                    Sign up
-                  </Link>
+                  <a href="https://www.google.com" className="button special">Sign up</a>
                 </li>
               </ul>
             </footer>
