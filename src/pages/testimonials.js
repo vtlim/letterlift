@@ -6,7 +6,6 @@ import HeaderTestimonials from '../components/HeaderTestimonials'
 import headshot_alex from '../assets/images/headshot_alex.jpg'
 import headshot_justin from '../assets/images/headshot_justin.jpg'
 
-import pic04 from '../assets/images/pic04.jpg'
 import overlay from '../assets/images/overlay.png'
 
 class Testimonials extends React.Component {
@@ -18,7 +17,6 @@ class Testimonials extends React.Component {
         <HeaderTestimonials />
         <div id="main">
           <section id="content" className="main">
-            <span className="image main"><img src={pic04} alt="" /></span>
             <div class="left_testimonial">
               <div class="praise">
                 <p>When I was writing my personal statement to apply to graduate schools for an MS in bioinformatics, I was <b>overwhelmed by the lack of structure</b> provided by the institutions I was applying to. I had a sense of the story I wanted to tell but was <b>struggling to synthesize the ideas in a way that was aligned with what the admissions officers were seeking</b>.</p>
@@ -53,18 +51,20 @@ class Testimonials extends React.Component {
               </div>
               <div class="title">
                 <div>
-                  <b>Alex W. </b>
+                  <b>Name </b>
                   <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
                   <FaLinkedin size={13} />
                   </a>
-                  <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i>
+                  <br />Title<br /><i>Applied to XX</i>
                 </div>
               </div>
             </div>
             <hr />
             <div class="left_testimonial">
               <div class="praise">
-                <p>Victoria at LetterLift changed my career! Victoria transformed my personal statement for a science policy fellowship into solid gold. Later in my career, she helped me with my resume and cover letter which helped me pivot from the federal government into industry. I could not have pivoted my career so much without Victoria's thoughtful guidance and astute editing.</p>
+                <p>Victoria at LetterLift changed my career! I was struggling to transition from the public to the private sector. She helped me craft both my resume and cover letter for industry data science positions.</p>
+                <p>For the resume, she had both an eye for content as well as organization and structure. She was able to distill the salient parts of my past experience and helped make the resume visually appealing instead of a cluttered mess. Similarly for my cover letter, she was able to help me tell my own story and made my opening and conclusion significantly more compelling and impactful.</p>
+                <p>Through the whole process Victoria helped me understand how to better talk about my career journey and how to emphasize the key parts hiring managers care about. I give her a lot of credit for helping me land a job in industry!</p>
               </div>
               <div class="headshot">
                 <span className="image">
@@ -93,11 +93,11 @@ class Testimonials extends React.Component {
               </div>
               <div class="title">
                 <div>
-                  <b>Alex W. </b>
+                  <b>Name </b>
                   <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
                   <FaLinkedin size={13} />
                   </a>
-                  <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i>
+                  <br />Title<br /><i>Applied to XX</i>
                 </div>
               </div>
             </div>
