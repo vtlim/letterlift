@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-const HeaderTestimonials = (props) => (
+const HeaderPricing = (props) => (
     <header id="header">
-        <h1>Testimonials</h1>
+        <h1>Pricing</h1>
         <p><Link to="/">LetterLift - Professional Editing Services</Link></p>
     </header>
 )
 
-export default HeaderTestimonials
+export default HeaderPricing

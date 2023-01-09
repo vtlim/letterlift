@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const HeaderAbout = (props) => (
     <header id="header">
         <h1>About us</h1>
-        <p><a href="/">LetterLift - Professional Editing Services</a></p>
+        <p><Link to="/">LetterLift - Professional Editing Services</Link></p>
     </header>
 )
 
