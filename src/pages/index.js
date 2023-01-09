@@ -63,7 +63,7 @@ class Index extends React.Component {
                 </p>
                 <ul className="actions">
                   <li>
-                    <a href="https://www.google.com" className="button special">Sign up</a>
+                    <a href="https://forms.gle/U5dQfMBFT8jbHBnDA" className="button special">Sign up</a>
                   </li>
                   <li>
                     <Link to="/testimonials" className="button">
@@ -192,7 +192,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li>
-                  <a href="https://www.google.com" className="button special">Sign up</a>
+                  <a href="https://forms.gle/U5dQfMBFT8jbHBnDA" className="button special">Sign up</a>
                 </li>
               </ul>
             </footer>

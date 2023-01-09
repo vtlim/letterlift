@@ -27,6 +27,8 @@ const Footer = props => (
     <section>
       <h2>Contact us</h2>
       <dl className="alt">
+        <dt>Register</dt>
+        <dd><a href="https://forms.gle/U5dQfMBFT8jbHBnDA">https://forms.gle/U5dQfMBFT8jbHBnDA</a></dd>
         <dt>Email</dt>
         <dd>
           <a href="mailto:letterlift@proton.me">letterlift@proton.me</a>
