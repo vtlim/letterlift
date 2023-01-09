@@ -163,7 +163,8 @@ class Index extends React.Component {
                   We also edit scientific manuscripts, theses, and personal statements.
                 </li>
                 <li>
-                  <b>What is your rate?</b> We charge a flat rate of $55. Discounts are available for students.
+                  <b>What is your rate?</b> For most documents, we charge a flat rate of $65.
+                  For more information, see <Link to="/pricing">Pricing</Link>.
                 </li>
                 <li>
                   <b>How are edits made?</b> We use the suggestion mode in Google Docs,
