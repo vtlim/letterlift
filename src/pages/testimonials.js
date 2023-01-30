@@ -32,9 +32,7 @@ class Testimonials extends React.Component {
               <div class="title">
                 <div>
                   <b>Alex W. </b>
-                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
-                  <FaLinkedin size={13} />
-                  </a>
+                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104"><FaLinkedin size={13} /></a>
                   <br />Software Engineer II at Illumina<br /><i>Applied to masters programs in bioinformatics</i>
                 </div>
               </div>
@@ -54,7 +52,6 @@ class Testimonials extends React.Component {
               <div class="title">
                 <div>
                   <b>Ellie F. </b>
-                  </a>
                   <br />Programmer Writer in FAANG<br /><i>Applied to full-time tech writing positions</i>
                 </div>
               </div>
@@ -75,9 +72,7 @@ class Testimonials extends React.Component {
               <div class="title">
                 <div>
                   <b>Justin S. </b>
-                  <a href="https://www.linkedin.com/in/justincliffordsmith">
-                  <FaLinkedin size={13} />
-                  </a>
+                  <a href="https://www.linkedin.com/in/justincliffordsmith"><FaLinkedin size={13} /></a>
                   <br />Lead Machine Learning Scientist at Caresyntax<br /><i>Applied to full-time data science positions</i>
                 </div>
               </div>
