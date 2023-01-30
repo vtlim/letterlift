@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Layout from '../components/layout'
 import HeaderTestimonials from '../components/HeaderTestimonials'
 import headshot_alex from '../assets/images/headshot_alex.jpg'
+import headshot_blank from '../assets/images/headshot_blank.png'
 import headshot_justin from '../assets/images/headshot_justin.jpg'
 
 import overlay from '../assets/images/overlay.png'
@@ -39,27 +40,27 @@ class Testimonials extends React.Component {
               </div>
             </div>
             <hr />
+
             <div class="right_testimonial">
               <div class="praise">
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
+                <p>Victoria at LetterLift read over my technical writing portfolio as I transitioned from my PhD into technical writing. She provided useful suggestions on how to turn my scientific writing into a more general collection of writing samples. She especially helped with important technical writing concepts like Markdown and API documentation.</p>
+                <p>Working with her was great. I felt totally unprepared for the job search after graduate school, but Victoria was really nonjudgmental and kind. I loved having a 1:1 connection with someone who understood where I was coming from and that was reflected in the way she provided feedback and suggestions. She really helped emphasize parts of my PhD into real hireable skills and I recommend LetterLift for anyone looking to take their writing to the next level!</p>
               </div>
               <div class="headshot">
                 <span className="image">
-                  <img src={overlay} alt="" />
+                  <img src={headshot_blank} alt="" />
                 </span>
               </div>
               <div class="title">
                 <div>
-                  <b>Name </b>
-                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
-                  <FaLinkedin size={13} />
+                  <b>Ellie F. </b>
                   </a>
-                  <br />Title<br /><i>Applied to XX</i>
+                  <br />Programmer Writer in FAANG<br /><i>Applied to full-time tech writing positions</i>
                 </div>
               </div>
             </div>
             <hr />
+
             <div class="left_testimonial">
               <div class="praise">
                 <p>Victoria at LetterLift changed my career! I was struggling to transition from the public to the private sector. She helped me craft both my resume and cover letter for industry data science positions.</p>
@@ -82,25 +83,6 @@ class Testimonials extends React.Component {
               </div>
             </div>
             <hr />
-            <div class="right_testimonial">
-              <div class="praise">
-                <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis fames ac ante ipsum primis in faucibus.</p>
-              </div>
-              <div class="headshot">
-                <span className="image">
-                  <img src={overlay} alt="" />
-                </span>
-              </div>
-              <div class="title">
-                <div>
-                  <b>Name </b>
-                  <a href="https://www.linkedin.com/in/alex-willenbrink-707856104">
-                  <FaLinkedin size={13} />
-                  </a>
-                  <br />Title<br /><i>Applied to XX</i>
-                </div>
-              </div>
-            </div>
           </section>
         </div>
       </Layout>

@@ -49,7 +49,7 @@ class Pricing extends React.Component {
               </tr>
               <tr>
                 <td>CV/resume only</td>
-                <td>25</td>
+                <td>30</td>
               </tr>
               <tr>
                 <td>Personal statement</td>
