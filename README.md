@@ -1,19 +1,11 @@
-# gatsby-starter-stellar
+# Website of Victoria Lim
+Domain name: [vtlim.github.io](https://vtlim.github.io/)
 
-**This starter has been updated for Gatsby.js V2.**
+Resolve any `package-lock.json` conflicts by updating/confirming `package.json` then running `npm install --package-lock-only`.
 
-**The older V1 version of this starter can be found in the V1 branch**
+References:
+* [Theme](https://github.com/StartBootstrap/startbootstrap-resume)
+* [Guide](https://codeburst.io/how-i-created-seo-friendly-portfolio-cv-website-and-hosted-it-on-github-d5c4da43cf2f)
 
-Gatsby.js V2 starter based on the Stellar site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+Established August 17, 2018.
 
-## Preview
-
-https://gatsby-stellar.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br>
-`gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
-
-Run `gatsby develop` in the terminal to start the dev site.
