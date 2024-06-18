@@ -217,8 +217,8 @@ blockquote::before{
   color:#78C0A8;
   font-size:2em;
   position: absolute;
-  left: 12px;
-  top:-5px;
+  left: 14px;
+  top:0px;
 }
 
 blockquote::after{
