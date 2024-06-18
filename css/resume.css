@@ -197,7 +197,7 @@ td {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote{
-  font-size: 1.1em;
+  font-size: 1em;
   width:80%;
   margin:50px auto;
   font-family:Open Sans;
@@ -217,8 +217,8 @@ blockquote::before{
   color:#78C0A8;
   font-size:2em;
   position: absolute;
-  left: 16px;
-  top:2px;
+  left: 18px;
+  top:6px;
 }
 
 blockquote::after{
