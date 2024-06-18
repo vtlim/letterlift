@@ -197,8 +197,8 @@ td {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
 blockquote{
-  font-size: 1.4em;
-  width:60%;
+  font-size: 0.8em;
+  width:80%;
   margin:50px auto;
   font-family:Open Sans;
   font-style:italic;
@@ -212,9 +212,10 @@ blockquote{
 
 blockquote::before{
   font-family:Arial;
+  font-style:normal;
   content: "⭐";
   color:#78C0A8;
-  font-size:4em;
+  font-size:2em;
   position: absolute;
   left: 10px;
   top:-10px;
