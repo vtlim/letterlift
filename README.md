@@ -1,11 +1,13 @@
-# Website of Victoria Lim
-Domain name: [vtlim.github.io](https://vtlim.github.io/)
+# LetterLift website
 
-Resolve any `package-lock.json` conflicts by updating/confirming `package.json` then running `npm install --package-lock-only`.
+vtlim.github.io/letterlift
 
-References:
-* [Theme](https://github.com/StartBootstrap/startbootstrap-resume)
-* [Guide](https://codeburst.io/how-i-created-seo-friendly-portfolio-cv-website-and-hosted-it-on-github-d5c4da43cf2f)
+Aliased using CNAME record in GitHub to letterlift.com
 
-Established August 17, 2018.
+My custom domain is registered on NameCheap, and I added the A records there to point to the IP addresses for GitHub Pages.
+
+Originally built as a Gatsby site (December 2022).
+Relaunched using Bootstrap in June 2024.
+
+For infra details, see [personal site repo](github.com/vtlim/vtlim.github.io).
 
