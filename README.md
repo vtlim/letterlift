@@ -1,6 +1,6 @@
 # LetterLift website
 
-[vtlim.github.io/letterlift]([vtlim.github.io/letterlift](https://vtlim.github.io/letterlift))
+[vtlim.github.io/letterlift](https://vtlim.github.io/letterlift)
 
 Aliased using CNAME record in GitHub to [letterlift.com](https://letterlift.com/)
 
